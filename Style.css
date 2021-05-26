@@ -2,6 +2,48 @@
   box-sizing: border-box;
 }
 
+{
+    width: 900px;
+    margin: auto;
+}
+
+@media all and (max-width: 1024px)
+{
+    #bloc_page
+    {
+        width: auto;
+    }
+}
+
+@media all and (max-width: 1024px)
+{
+    nav
+    {
+        width: auto;
+        text-align: left;
+    }
+    
+    nav ul
+    {
+        flex-direction: column;
+    }
+
+    nav li
+    {
+        padding-left: 4px;
+    }
+    
+    nav a
+    {
+        font-size: 1.1em;
+    }
+    
+    nav a:hover
+    {
+        border-bottom: 0;
+    }
+}
+
 body {
   margin: 0;
   background-color: white;
